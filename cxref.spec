@@ -11,7 +11,6 @@ Group:		Development/C
 Source0:	%{name}-%{version}.tar.bz2
 URL:		http://www.gedanken.demon.co.uk/cxref/
 Buildrequires:	flex bison
-Buildroot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
 %description
 A program that takes as input a series of C source files
