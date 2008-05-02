@@ -1,6 +1,6 @@
 %define	name	cxref
-%define	version	1.6a
-%define	release	%mkrel 2
+%define	version	1.6b
+%define	release	%mkrel 1
 
 Summary:	C program cross-referencing & documentation tool
 Name:		%{name}
@@ -8,7 +8,7 @@ Version:	%{version}
 Release:	%{release}
 License:	GPL
 Group:		Development/C
-Source0:	%{name}-%{version}.tar.bz2
+Source0:	http://www.gedanken.demon.co.uk/download-cxref/%name-%version.tgz
 URL:		http://www.gedanken.demon.co.uk/cxref/
 Buildrequires:	flex bison
 Buildroot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
@@ -30,9 +30,8 @@ Works for ANSI C, including many gcc extensions.
 %setup -q
 
 %build
-%configure
+%configure2_5x
 %make
-#make docs
 
 %install
 rm -rf $RPM_BUILD_ROOT
