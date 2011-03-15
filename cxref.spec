@@ -1,6 +1,6 @@
 %define	name	cxref
-%define	version	1.6b
-%define	release	%mkrel 4
+%define	version	1.6c
+%define	release	%mkrel 1
 
 Summary:	C program cross-referencing & documentation tool
 Name:		%{name}
