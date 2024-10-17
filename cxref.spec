@@ -9,7 +9,7 @@ Release:	%{release}
 License:	GPL
 Group:		Development/C
 Source0:	http://www.gedanken.demon.co.uk/download-cxref/%name-%version.tgz
-URL:		http://www.gedanken.demon.co.uk/cxref/
+URL:		https://www.gedanken.demon.co.uk/cxref/
 Buildrequires:	flex bison
 Buildroot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
